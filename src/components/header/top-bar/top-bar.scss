@@ -1,0 +1,27 @@
+@import '../../../App.scss';
+
+.topbar-container {
+    width: 1280px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.top-item {
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: $gray-200;
+}
+
+.item-pink-text {
+    color: $pink-app;
+    font-weight: 600;
+}

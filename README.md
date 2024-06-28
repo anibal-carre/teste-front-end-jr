@@ -37,10 +37,10 @@ Segue abaixo as instruções para a execução do teste.
 
 ## Instalação e compilação
 
-1- Fazer o git clone do projeto.
-2- Executar o comando "npm install".
-3- Criar un arquivo .env na raiz do projeto.
-4- Criar a variável de entorno: VITE_API_URL=https://api-econverse-products-next.vercel.app/api/products
-5- Executar o comando "npm run dev".
+- Fazer o git clone do projeto.
+- Executar o comando "npm install".
+- Criar un arquivo .env na raiz do projeto.
+- Criar a variável de entorno: VITE_API_URL=https://api-econverse-products-next.vercel.app/api/products
+- Executar o comando "npm run dev".
 
 Nota: A API fornecida pela Econverse não funcionou para mim. Quando tento fazer a solicitação de dados, recebo um erro de permissão, indicando um problema com as políticas de CORS. No entanto, consigo usar a API sem problemas pelo Postman. Por isso, decidi criar uma API simples, semelhante à da Econverse, utilizando Next.js. Entendo que o problema com as CORS não pode ser resolvido pelo front-end, mas sim pelo back-end.

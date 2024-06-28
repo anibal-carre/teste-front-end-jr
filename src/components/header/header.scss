@@ -1,7 +1,8 @@
 @import '../../App.scss';
 
 .header-container {
-    width: 1280px;
+    width: 100%;
+    max-width: 1442px;
     height: 144px;
     display: flex;
     flex-direction: column;

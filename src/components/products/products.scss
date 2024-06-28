@@ -43,13 +43,15 @@
 }
 .products-section-nav {
   width: 100%;
+  max-width: 1264px;
   height: 40px;
   display: flex;
   justify-content: center;
 }
 
 .products-section-items {
-  width: 211px;
+  width: 100%;
+  max-width: 230px;
   display: flex;
   justify-content: center;
   align-items: center;
